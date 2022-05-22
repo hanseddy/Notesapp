@@ -13,6 +13,12 @@
         <action
             android:id="@+id/action_homeNotes_to_editNotes"
             app:destination="@id/editNotes" />
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument
+            android:name="desc"
+            app:argType="string" />
     </fragment>
     <fragment
         android:id="@+id/editNotes"
